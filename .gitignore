@@ -1,0 +1,6 @@
+*__*
+\venv
+.env
+pyproject.toml
+poetry.lock
+repl.it
