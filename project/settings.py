@@ -15,7 +15,7 @@ INSTALLED_APPS = ['datacenter']
 
 SECRET_KEY = 'REPLACE_ME'
 
-DEBUG = True if os.getenv('DEBUG', False) in ('True', 'TRUE', 'true') else False
+DEBUG = env.bool('DEBUG')
 
 ROOT_URLCONF = 'project.urls'
 
